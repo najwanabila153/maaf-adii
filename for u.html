@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aku Minta Maaf</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 10%;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff6b6b;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #4a4a4a;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff4040;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Aku Minta Maaf</h1>
+        <p>hallo adii sayangku,</p>
+        <p>Aku sadar banyak salahku yang bikin kamu kecewa. Aku minta maaf karena aku sering egois dan nggak peka sama perasaanmu. Aku mau berubah, tapi aku juga nggak mau memaksamu. Kalau kamu siap, aku selalu ada untuk bicara.tolong buka blokirannya</p>
+        <button onclick="tampilkanPesan()">Aku Memaafkanmu</button>
+        <p id="response" style="color: #4caf50; font-size: 1.5em; margin-top: 20px; display: none;">
+            Terima kasih! Mari kita maju bersama.
+        </p>
+    </div>
+    <script>
+        function tampilkanPesan() {
+            document.getElementById('response').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
